@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+main {
+    margin-top: 40px;
+    padding: 20px;
+    border-style: solid;
+    border-color: midnightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+margin: 0;
+border-style: bold;
+border-color: red;
+}
+
+.hide {
+    display: none;
+}
+
